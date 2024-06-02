@@ -5,51 +5,112 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículum</title>
-    <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
 </head>
 <!--Este es el inicio del contenido-->
 <body>
-    <img src="./assets/claudia.jpg" alt="foto de perfil" height="100" width="100">
-    <h1>Claudia Martínez Allendes</h1>
-    <a href="https://www.linkedin.com/in/claudiapurpura/" target="_blank">Ver en LinkedIn</a>
-    <a href="./portafolio.html"> Ver Portafolio </a>
-    <h3>Publicista con<span> </style> Mención en Gestión Creativa</span></h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequatur quos reprehenderit, natus minus error commodi corrupti fugit! Iure, ex? Consectetur architecto a nesciunt, obcaecati ab sequi! Quam, dicta facilis?</p>
-    <ul>
-        <li>RUT: 17.610.252-7</li>
-        <li>Teléfono: (+569) 4531 7734</li>
-        <li>Correo: martinezallendesclaudia@gmail.com</li>
-        <li>Disponibilidad Completa</li>
-    </ul>
-    <h4>Estudios</h4>
-    <ul>
-        <li>Publicidad, Universidad de Santiago (2009-2013)</li>
-        <li>Ingeniería en Administración de Empresas (2023)</li>
-        <li>Desarrollo Front-end, Desafío Latam (en curso)</li>
-    </ul>
-    <h4>Cursos</h4>
-    <ul>
-        <li>Curso Reputación Corporativa, Univerdad del Desarrollo, 2021</li>
-        <li>Curso Metodologías Ágiles, Fundación Telefónica (2024)</li>
-    </ul>
-    <h4>Historia Laboral</h4>
-    <ol>
-        <li>Agencia Hapiness, Community Manager (2013)</li>
-        <li>MG Consulting, Analista en Gestión de Proyectos (2013)</li>
-        <li>Octano, Community Manager (2014)</li>
-        <li>Concepto Group, Redactor Creativo (2014)</li>
-        <li>DigitAll, Community Manager (2015)</li>
-        <li>Animal Creativo, Social Media Manager (2015)</li>
-        <li>Púrpura Digital, fundadora (2015-2022)</li>
-        <p>A medida que Púrpura Digital crece, las responsabilidades escalan y se vuelve necesario interpretar distintos roles</p>
-        <ul>
-            <li>Full Stack Marketer</li>
-            <li>Director de Marketing</li>
-            <li>Director de Comunicaciones</li>
-            <li>Gerente General</li>
-        </ul>
-        <li>Identitaria Centro de Salud Mental, cofundadora (2023 al presente)</li>
-    </ol>
- <a href="https://instagram.com/claudia__zepam" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png" alt="Logo de Instagram" height="30" width="30"></a>    
+    <!---Barra de Navegación-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary barra">
+        <div class="container-fluid">
+          <img src="./assets/img/logo-claudia.png" alt="logo claudia" class="formato-logo">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../claudiamartinez.cl/portafolio.html">Currículum</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../claudiamartinez.cl/portafolio.html">Portafolio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Link
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Marketing Digital</a></li>
+                    <li><a class="dropdown-item" href="#">Marketing de Contenidos</a></li>
+                  <li><a class="dropdown-item" href="#">Diseño UX/UI</a></li>
+                  <li><a class="dropdown-item" href="#">Diseño Web</a></li>
+                  <li><a class="dropdown-item" href="#">Producción Audiovisual</a></li>
+                  <li><a class="dropdown-item" href="#">Desarrollo de Software</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true">Contáctame</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+<!---Fin de la barra de Navegación-->
+
+<!---Comienda Slider Principal-->
+<section>
+<div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <!---Primera Slide-->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/img/Diapositiva25.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Fundación Pablo Neruda</h5>
+          <p>Aplicación híbrida realizada para guiar el recorrido de los turistas en las Casas Museo</p>
+        </div>
+      </div>
+
+<!---Segunda Slide-->
+
+      <div class="carousel-item">
+        <img src="./assets/img/Diapositiva38.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Hotel Ladera</h5>
+          <p>Estrategia Digital Multiplataforma</p>
+        </div>
+      </div>
+
+<!---Tercera Slide>-->
+
+      <div class="carousel-item">
+        <img src="./assets/img/Diapositiva7.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Otros Proyectos</h5>
+          <p>La publicidad tiene muchos formatos para visibilizar los contenidos y el mensaje deseado</p>
+        </div>
+      </div>
+    </div>
+
+    <!---Fin Slides-->
+    
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+   
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body><!---Este es el fin del contenido--->
 </html>
+
+</section>

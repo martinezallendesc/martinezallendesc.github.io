@@ -1,0 +1,28 @@
+nav div img .formato-logo {
+    width: 33%;
+}
+
+.barra {
+    background-color: black !important;
+}
+
+section {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.foto {
+    
+    width: 100%;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+section div h5 {
+color: black
+}
+
+section div p {
+    color: black
+    }
