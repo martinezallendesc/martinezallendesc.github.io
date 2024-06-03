@@ -58,3 +58,18 @@ section div p {
     font-family: 'Nunito Sans', sans-serif;
     }
 
+.tarjetas {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+border-color: #8C52FF;
+margin: 10px;
+
+}
