@@ -1,10 +1,39 @@
-nav div img .formato-logo {
-    width: 33%;
+.barra-navegacion {
+    background-color: black !important;
+    display: flex;
 }
 
-.barra {
-    background-color: black !important;
+div-menu {
+    display: flex;
+    justify-content: flex-end;
 }
+
+nav img {
+    height: 30px;
+}
+
+nav a {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 100px;
+    color: #ffffff !important;
+}
+
+li a:hover {
+    color: #000000;
+  }
+
+.desplegable {
+    background-color: black;
+}
+
+dropdown-item {
+    color: #ffffff;
+}
+
+carousel slide {
+    color: black;
+}
+
 
 section {
     display: flex;
@@ -20,9 +49,12 @@ section {
 }
 
 section div h5 {
-color: black
+color: black;
+font-family: 'Nunito Sans', sans-serif;
 }
 
 section div p {
-    color: black
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
     }
+
