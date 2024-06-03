@@ -59,12 +59,8 @@ section div p {
     }
 
 .tarjetas {
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 50px;
-    margin-bottom: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -75,19 +71,17 @@ margin: 10px;
 }
 
 .seccion-contacto {
-padding-left: 300px;
-padding-right: 300px;
-padding-top: 50px;
-padding-bottom: 50px;
 display: block;
 background-color: #462980;
+justify-content: center;
+padding: 50px;
 
 }
+
 .mb-3 {
     color: #ffffff;
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 100px;
-
 }
 
 
@@ -97,38 +91,42 @@ background-color: #462980;
 }
 
 footer {
-margin: 0;
-padding-left: 200px;
-padding-top: 20px;
-padding-bottom: 10px;
-padding-right: 200px;
 background-color: #000000;
-display: flex;
-justify-content: inline;
+}
 
+.casilla-1 {
+    width: 100%;
+    display: block;
+}
+
+.casilla-2 {
+    width: 100%;
+    display: block;
 }
 
 
 footer h6 {
     color: #ffffff;
 font-family: 'Nunito Sans', sans-serif;
-    font-weight: 100px;
-
+    font-weight: 50px;
+    margin: 0px;
 }
 
-.columna1 {
-    width: 49%;
-display: flex;
-justify-content: flex-start;
-
-}
-
-.columna2 {
-width: 49%;
-display: flex;
-justify-content: flex-end;
-}
 
 footer div img {
 width: 30px;
+margin-left: 10px;
+margin-top: 0;
+}
+
+label {
+    width: 100%;
+}
+
+input {
+    width: 90%;
+}
+
+textarea {
+    width: 90%;
 }
