@@ -90,9 +90,7 @@ padding: 50px;
     border-color: #8C52FF;
 }
 
-footer {
-background-color: #000000;
-}
+
 
 .casilla-1 {
     width: 100%;
@@ -104,6 +102,29 @@ background-color: #000000;
     display: block;
 }
 
+
+label {
+    width: 100%;
+}
+
+input {
+    width: 90%;
+}
+
+textarea {
+    width: 90%;
+}
+
+footer {
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: flex-end;
+padding: 10px;
+    }
+
+
+    
 
 footer h6 {
     color: #ffffff;
@@ -117,16 +138,4 @@ footer div img {
 width: 30px;
 margin-left: 10px;
 margin-top: 0;
-}
-
-label {
-    width: 100%;
-}
-
-input {
-    width: 90%;
-}
-
-textarea {
-    width: 90%;
 }
